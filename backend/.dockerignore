@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.github
+node_modules
+data
+backend/data
+terminal_os.db
+backend/terminal_os.db
+dist
+build
+.venv
+venv

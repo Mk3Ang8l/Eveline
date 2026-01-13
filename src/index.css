@@ -1,0 +1,84 @@
+/* TERMINAL_OS - Gruvbox Design System */
+
+:root {
+  /* Gruvbox Palette */
+  --bg-dark: #282828;
+  --bg-medium: #3c3836;
+  --bg-light: #504945;
+  --fg-primary: #ebdbb2;
+  --fg-secondary: #a89984;
+  --accent-yellow: #d79921;
+  --accent-green: #98971a;
+  --accent-blue: #458588;
+  --accent-red: #cc241d;
+  
+  /* Typography */
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  
+  /* Spacing */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  
+  /* Effects */
+  --border: 1px solid var(--bg-light);
+  --glow: 0 0 4px var(--accent-yellow);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.5;
+  background: var(--bg-dark);
+  color: var(--fg-primary);
+  overflow-x: hidden;
+}
+
+/* Scanline effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+code {
+  font-family: var(--font-mono);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-light);
+  border: 1px solid var(--accent-yellow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-yellow);
+}

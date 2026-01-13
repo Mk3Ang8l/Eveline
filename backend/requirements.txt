@@ -1,0 +1,29 @@
+# Core API
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+httpx==0.28.1
+python-multipart==0.0.9
+pydantic==2.10.5
+sqlalchemy==2.0.36
+
+# Tools
+playwright==1.49.1
+playwright-stealth==1.0.6
+fake-useragent==1.5.1
+duckduckgo-search==6.3.5
+beautifulsoup4==4.12.3
+python-whois==0.9.4
+web3==6.20.1
+docker==7.1.0
+
+# Intelligence & Memory
+tiktoken==0.5.1
+numpy==1.24.3
+
+# Utilities
+psutil==6.1.0
+schedule==1.2.2
+pillow==11.0.0
+pandas==2.2.3
+websockets==11.0.3

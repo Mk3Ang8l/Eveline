@@ -1,0 +1,21 @@
+{
+  "name": "Lain de laine",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "lucide-react": "^0.562.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1",
+    "vite-plugin-react": "^4.0.0"
+  }
+}
