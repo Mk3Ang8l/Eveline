@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="https://github.com/Mk3Ang8l/Eveline/blob/main/src/assets/OIP-3162603972.jpg" alt="Description" width="600"/>
+</div>
 
 # Eveline
 
