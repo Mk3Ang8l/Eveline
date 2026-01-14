@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="https://github.com/Mk3Ang8l/Eveline/blob/main/src/assets/OIP-3162603972.jpg" alt="Description" width="600"/>
+</div>
 
 # Eveline
 
@@ -155,7 +158,7 @@ The AI uses a ReAct (Reason + Act) loop for tool execution:
 4. Submit a pull request
 
 ## acknowledgments
-I would like to express my gratitude to mistral ai team as they made that project possible & and github team too for offering a large ocean of projects to dive into  ❤️
+I would like to express my gratitude to mistral ai team as they made that project possible  and github team too for offering a large ocean of projects to dive into  ❤️
 ## License
 donate:
 -USDT/ETHERIUM ADRESS:
