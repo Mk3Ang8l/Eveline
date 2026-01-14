@@ -51,7 +51,7 @@ class OSINTService:
             if resp.status_code == 200:
                 content = resp.text.lower()
                 # Generic checks for "not found" in text even if 200 (common in modern apps)
-                not_found_markers = ["page not found", "this account doesn't exist", "utilisateur introuvable"]
+                not_found_markers = ["page not found", "this account doesn't exist", "user not found"]
                 if any(marker in content for marker in not_found_markers):
                     return {"platform": platform, "status": "MISSING", "url": url}
                 
@@ -95,5 +95,5 @@ class OSINTService:
         return {
             "email": email,
             "status": "SIMULATED",
-            "message": "En mode démo, je vérifie les bases publiques. Aucune fuite majeure détectée pour cet email dans les 24h."
+            "message": "In demo mode, checking public databases. No major leaks detected for this email in the last 24 hours."
         }
